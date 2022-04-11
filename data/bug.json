@@ -1,0 +1,68 @@
+[
+  {
+    "_id": "PIt1n",
+    "title": "eze bug",
+    "description": "y y y",
+    "severity": "2",
+    "createdAt": 1649681750859,
+    "owner": {
+      "_id": "9i4ft",
+      "fullname": "Tamir belisha"
+    }
+  },
+  {
+    "_id": "6E7vj",
+    "title": "Timi's bug",
+    "description": "and that's it",
+    "severity": "2",
+    "createdAt": 1646847770160,
+    "owner": {
+      "_id": "6YzAR",
+      "fullname": "Tamir Belisha"
+    }
+  },
+  {
+    "_id": "SyEqr",
+    "title": "Bugg number 3",
+    "description": " buggy and i know it will stop",
+    "severity": "2",
+    "createdAt": 1646847695271,
+    "owner": {
+      "_id": "ORDRj",
+      "fullname": "Bobo"
+    }
+  },
+  {
+    "_id": "emg86",
+    "title": "BUG TITLE",
+    "description": "BUG DISC",
+    "severity": "2",
+    "createdAt": 1646847680839,
+    "owner": {
+      "_id": "ORDRj",
+      "fullname": "Bobo"
+    }
+  },
+  {
+    "_id": "Sf0wV",
+    "title": "bug to check",
+    "description": "is it a bug or a plane??",
+    "severity": "2",
+    "createdAt": 1646847663837,
+    "owner": {
+      "_id": "ORDRj",
+      "fullname": "Bobo"
+    }
+  },
+  {
+    "_id": "GxO0V",
+    "title": "Buggy bug",
+    "description": "Bug bug",
+    "severity": "2",
+    "createdAt": 1646847385935,
+    "owner": {
+      "_id": "6YzAR",
+      "fullname": "Tamir Belisha"
+    }
+  }
+]

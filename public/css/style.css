@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(27, 27, 27);
+}
+p {
+    margin-block-end: .4rem;
+    margin-block-start: .4rem;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-layout {
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.app-header {
+    display: flex;
+    background-color: rgb(102, 102, 52);
+    color: white;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.app-header a {
+    color: white;
+    font-size: 1.3rem;
+}
+.header-nav-container {
+    display: flex;
+    gap: 1rem;
+}
+.logo {
+    font-size: 2.5rem;
+}
+
+.bug-list-container {
+    height: fit-content;
+    width: 60vw;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: antiquewhite;
+}
+
+.bug-details-container {
+    height: fit-content;
+    width: 60vw;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: antiquewhite;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    top: 50vh;
+    left: 50vw;
+}
+
+.bug-preview,
+.bug-details,
+.bug-input {
+    background-color: rgba(0, 0, 0, 0.322);
+    padding-inline-start: .5rem;
+    font-size: 1.2rem;
+    border: 2px solid antiquewhite;
+    position: relative;
+}
+.bug-preview{
+    width: 50%;
+}
+.bug-details {
+    width: 100%;
+}
+.bug-preview span {
+    font-size: .9em;
+    color: rgb(24, 24, 24);
+}
+.bug-input {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.bug-input input {
+    height: 30px;
+    width: 100%;
+    margin-inline-start: .5rem;
+    margin-inline-end: .5rem;
+}
+
+.bug-btn {
+    border: 0;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+.bug-btn-container {
+    width: calc(100% - 1rem);
+    position: absolute;
+    bottom: 5px;
+    display: flex;
+    gap: 2px;
+    justify-content: end;
+}
+a.bug-btn {
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1px 6px;
+}
+.bug-input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-margin {
+    margin-block-start: .5rem;
+}
+
+.bug-add-btn {
+    height: 40px;
+    background-color: rgba(31, 177, 31, 0.87);
+    font-size: 1.3rem;
+    text-align: center;
+    align-self: center;
+    width: 100%;
+    line-height: 2;
+}
+
+input.severity-input {
+    width: 40%;
+}
+
+.mbottom {
+    margin-block-end: 1.7rem;
+}
+
+.login-section {
+    padding: 1rem;
+}
+.login-section button {
+    cursor: pointer;
+}
+
+.signup-nav {
+    margin-top: .5rem;
+    cursor: pointer;
+}
+
+.mleft {
+    margin-inline-start: .5rem;
+}
+
+.pagination-container {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

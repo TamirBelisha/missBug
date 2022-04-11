@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "9i4ft",
+    "fullname": "Tamir belisha",
+    "username": "timi",
+    "password": "1414",
+    "createdAt": 1649681725426,
+    "isAdmin": false,
+    "bugCount": 1
+  },
+  {
+    "_id": "ORDRj",
+    "fullname": "Bobo",
+    "username": "bobo",
+    "password": "123",
+    "createdAt": 1646847653770,
+    "isAdmin": false,
+    "bugCount": 3
+  },
+  {
+    "_id": "6YzAR",
+    "fullname": "Tamir Belisha",
+    "username": "tamir14",
+    "password": "123",
+    "createdAt": 1646846322655,
+    "isAdmin": false,
+    "bugCount": 2
+  },
+  {
+    "_id": "2h7Db",
+    "fullname": "Admin",
+    "username": "Admin",
+    "password": "Admin",
+    "createdAt": 1646840794098,
+    "isAdmin": true,
+    "bugCount": null
+  }
+]
